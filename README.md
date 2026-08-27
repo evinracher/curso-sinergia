@@ -1,0 +1,1 @@
+Este es el repositorio público del curso SINERGIA
