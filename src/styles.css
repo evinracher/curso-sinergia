@@ -99,6 +99,8 @@ h1 em { font-style: normal; color: transparent; -webkit-text-stroke: 1px rgba(23
 .class-detail-inner > p { color: var(--muted); line-height: 1.65; margin: 0 0 20px; }
 .class-card.is-open .class-detail-inner { padding-bottom: 28px; }
 .empty-resource { display: inline-flex; align-items: center; gap: 9px; color: #788580; font-size: 13px; border: 1px dashed var(--line); padding: 12px 15px; border-radius: 8px; }
+.resource-groups { display: grid; gap: 24px; }
+.resource-group h3 { margin: 0 0 10px; color: #9ba7a2; font: 500 12px 'Manrope'; letter-spacing: 1.2px; text-transform: uppercase; }
 .resource { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin-bottom: 8px; }
 .resource:hover { border-color: rgba(200,243,106,.4); }
 .resource-icon { width: 36px; height: 36px; border-radius: 6px; background: #263237; display: grid; place-items: center; }

@@ -4,7 +4,46 @@ export const classes = [
     module: 'Entender',
     title: 'Fundamentos de la IA generativa',
     description: 'Principios, conceptos esenciales, evolución, límites y criterios para evaluar sistemas de inteligencia artificial.',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 1',
+        type: 'pdf',
+        href: '/recursos/clase-1/clase-1-presentacion.pdf',
+        size: '2.9 MB',
+      },
+      {
+        name: 'Notas de la clase 1',
+        type: 'pdf',
+        href: '/recursos/clase-1/clase-1-notas.pdf',
+        size: '335 KB',
+      },
+      {
+        name: 'Actividad 1',
+        type: 'pdf',
+        href: '/recursos/clase-1/clase-1-actividad-1.pdf',
+        size: '130 KB',
+      },
+    ],
+    additionalResources: [
+      {
+        name: 'The AI Fluency Framework',
+        type: 'pdf',
+        href: '/recursos/clase-1/1.2_AI_Fluency_Summary_16x9.pdf',
+        size: '228 KB',
+      },
+      {
+        name: 'AI Fluency: Key Terminology Cheat Sheet',
+        type: 'pdf',
+        href: '/recursos/clase-1/AI_Fluency_vocabulary_cheat_sheet.pdf',
+        size: '1.4 MB',
+      },
+      {
+        name: 'Understanding Generative AI',
+        type: 'pdf',
+        href: '/recursos/clase-1/DD1_Handout__Overview_of_Generative_AI.pdf',
+        size: '380 KB',
+      },
+    ],
   },
   {
     number: '02',

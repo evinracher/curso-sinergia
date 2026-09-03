@@ -48,7 +48,9 @@ function Resource({ resource }) {
 
 function ClassCard({ item }) {
   const [expanded, setExpanded] = useState(false)
-  const hasResources = item.resources.length > 0
+  const additionalResources = item.additionalResources ?? []
+  const resourceCount = item.resources.length + additionalResources.length
+  const hasResources = resourceCount > 0
 
   return (
     <article className={`class-card ${expanded ? 'is-open' : ''}`}>
@@ -59,7 +61,7 @@ function ClassCard({ item }) {
           <strong>{item.title}</strong>
         </span>
         <span className={`availability ${hasResources ? 'available' : ''}`}>
-          {hasResources ? `${item.resources.length} recurso${item.resources.length > 1 ? 's' : ''}` : 'Próximamente'}
+          {hasResources ? `${resourceCount} recurso${resourceCount > 1 ? 's' : ''}` : 'Próximamente'}
         </span>
         <ArrowDown className="class-arrow" size={19} aria-hidden="true" />
       </button>
@@ -67,7 +69,20 @@ function ClassCard({ item }) {
         <div className="class-detail-inner">
           <p>{item.description}</p>
           {hasResources ? (
-            <div className="resources-list">{item.resources.map((resource) => <Resource key={resource.href} resource={resource} />)}</div>
+            <div className="resource-groups">
+              {item.resources.length > 0 && (
+                <section className="resource-group" aria-labelledby={`class-${item.number}-main-resources`}>
+                  {additionalResources.length > 0 && <h3 id={`class-${item.number}-main-resources`}>Recursos principales</h3>}
+                  <div className="resources-list">{item.resources.map((resource) => <Resource key={resource.href} resource={resource} />)}</div>
+                </section>
+              )}
+              {additionalResources.length > 0 && (
+                <section className="resource-group" aria-labelledby={`class-${item.number}-additional-resources`}>
+                  <h3 id={`class-${item.number}-additional-resources`}>Recursos adicionales</h3>
+                  <div className="resources-list">{additionalResources.map((resource) => <Resource key={resource.href} resource={resource} />)}</div>
+                </section>
+              )}
+            </div>
           ) : (
             <div className="empty-resource"><Sparkles size={18} /><span>Los materiales de esta clase se publicarán aquí.</span></div>
           )}
