@@ -50,21 +50,48 @@ export const classes = [
     module: 'Explorar',
     title: 'Casos de uso y adopción responsable',
     description: 'Aplicaciones empresariales, retos de integración, ética y uso de la IA como extensión de las capacidades humanas.',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 2',
+        type: 'pdf',
+        href: '/recursos/clase-2/clase-2-presentacion.pdf',
+        size: '1.4 MB',
+      },
+      {
+        name: 'Actividad 2',
+        type: 'pdf',
+        href: '/recursos/clase-2/clase-2-actividad-2.pdf',
+        size: '60 KB',
+      },
+    ],
   },
   {
     number: '03',
     module: 'Hacer',
     title: 'Prompting: de la intención al resultado',
     description: 'Anatomía de un buen prompt, contexto, restricciones y técnicas para obtener resultados útiles y verificables.',
-    resources: [],
+    resources: [
+      {
+        name: 'Actividad 3',
+        type: 'pdf',
+        href: '/recursos/clase-3/clase-3-actividad-3.pdf',
+        size: '111 KB',
+      },
+    ],
   },
   {
     number: '04',
     module: 'Hacer',
     title: 'Prompting avanzado y multimodal',
     description: 'Patrones avanzados, comparación de respuestas y trabajo con texto, imágenes, audio y video.',
-    resources: [],
+    resources: [
+      {
+        name: 'Actividad 4',
+        type: 'pdf',
+        href: '/recursos/clase-4/clase-4-actividad-4.pdf',
+        size: '51 KB',
+      },
+    ],
   },
   {
     number: '05',
