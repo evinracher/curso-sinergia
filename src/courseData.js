@@ -69,10 +69,33 @@ export const classes = [
     title: 'Prompting: de la intención al resultado',
     resources: [
       {
+        name: 'Presentación de la clase 3',
+        type: 'pdf',
+        href: '/recursos/clase-3/clase-3-presentacion.pdf',
+        size: '616 KB',
+      },
+      {
+        name: 'Notas de la clase 3',
+        type: 'pdf',
+        href: '/recursos/clase-3/clase-3-notas.pdf',
+        size: '228 KB',
+      },
+      {
         name: 'Actividad 3',
         type: 'pdf',
         href: '/recursos/clase-3/clase-3-actividad-3.pdf',
         size: '111 KB',
+      },
+      {
+        name: 'Prompts de la clase 3',
+        type: 'pdf',
+        href: '/recursos/clase-3/prompts.pdf',
+        size: '95 KB',
+      },
+      {
+        name: 'Ejemplos de la clase 3',
+        type: 'link',
+        href: 'https://github.com/evinracher/curso-sinergia/tree/main/public/recursos/clase-3/ejemplos',
       },
     ],
   },
