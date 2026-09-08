@@ -67,7 +67,6 @@ function ClassCard({ item }) {
       </button>
       <div className="class-detail">
         <div className="class-detail-inner">
-          <p>{item.description}</p>
           {hasResources ? (
             <div className="resource-groups">
               {item.resources.length > 0 && (
