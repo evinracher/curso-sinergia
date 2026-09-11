@@ -105,10 +105,33 @@ export const classes = [
     title: 'Prompting avanzado y multimodal',
     resources: [
       {
+        name: 'Presentación de la clase 4',
+        type: 'pdf',
+        href: '/recursos/clase-4/clase-4-presentacion.pdf',
+        size: '784 KB',
+      },
+      {
+        name: 'Notas de la clase 4',
+        type: 'pdf',
+        href: '/recursos/clase-4/clase-4-notas.pdf',
+        size: '162 KB',
+      },
+      {
         name: 'Actividad 4',
         type: 'pdf',
         href: '/recursos/clase-4/clase-4-actividad-4.pdf',
         size: '51 KB',
+      },
+      {
+        name: 'Prompts de la clase 4',
+        type: 'pdf',
+        href: '/recursos/clase-4/prompts.pdf',
+        size: '63 KB',
+      },
+      {
+        name: 'Ejemplos de la clase 4',
+        type: 'link',
+        href: 'https://github.com/evinracher/curso-sinergia/tree/main/public/recursos/clase-4/ejemplos',
       },
     ],
   },
