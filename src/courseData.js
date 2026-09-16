@@ -139,7 +139,37 @@ export const classes = [
     number: '05',
     module: 'Transformar',
     title: 'Diseño de asistentes inteligentes',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 5',
+        type: 'pdf',
+        href: '/recursos/clase-5/clase-5-presentacion.pdf',
+        size: '876 KB',
+      },
+      {
+        name: 'Notas de la clase 5',
+        type: 'pdf',
+        href: '/recursos/clase-5/clase-5-notas.pdf',
+        size: '237 KB',
+      },
+      {
+        name: 'Actividad 5',
+        type: 'pdf',
+        href: '/recursos/actividades/actividad-5.pdf',
+        size: '58 KB',
+      },
+      {
+        name: 'Prompts de la clase 5',
+        type: 'pdf',
+        href: '/recursos/clase-5/prompts.pdf',
+        size: '96 KB',
+      },
+      {
+        name: 'Ejemplos de la clase 5',
+        type: 'link',
+        href: 'https://github.com/evinracher/curso-sinergia/tree/main/public/recursos/clase-5/ejemplos',
+      },
+    ],
   },
   {
     number: '06',
