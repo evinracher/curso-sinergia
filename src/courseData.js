@@ -144,7 +144,7 @@ export const classes = [
         name: 'Presentación de la clase 5',
         type: 'pdf',
         href: '/recursos/clase-5/clase-5-presentacion.pdf',
-        size: '876 KB',
+        size: '852 KB',
       },
       {
         name: 'Notas de la clase 5',
