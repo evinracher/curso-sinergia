@@ -175,7 +175,43 @@ export const classes = [
     number: '06',
     module: 'Construir',
     title: 'Automatización sin código',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 6',
+        type: 'pdf',
+        href: '/recursos/clase-6/clase-6-presentacion.pdf',
+        size: '1.4 MB',
+      },
+      {
+        name: 'Notas de la clase 6',
+        type: 'pdf',
+        href: '/recursos/clase-6/clase-6-notas.pdf',
+        size: '184 KB',
+      },
+      {
+        name: 'Actividad 6',
+        type: 'pdf',
+        href: '/recursos/actividades/actividad-6.pdf',
+        size: '125 KB',
+      },
+      {
+        name: 'Prompts de la clase 6',
+        type: 'pdf',
+        href: '/recursos/clase-6/prompts-clase-6.pdf',
+        size: '135 KB',
+      },
+      {
+        name: 'Diseño propuesto de la actividad 6',
+        type: 'file',
+        href: '/recursos/clase-6/actividad-6-diseno-propuesto.png',
+        size: '26 KB',
+      },
+      {
+        name: 'Ejemplos de la clase 6',
+        type: 'link',
+        href: 'https://github.com/evinracher/curso-sinergia/tree/main/public/recursos/clase-6/ejemplos',
+      },
+    ],
   },
   {
     number: '07',
