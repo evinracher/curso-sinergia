@@ -1,0 +1,43 @@
+{
+  "months": [
+    {
+      "file": "01-kp-transporte-2026-07.xlsx",
+      "passengers": 246647,
+      "revenue": 986588000,
+      "fuel": 69899005.57811753,
+      "partial": 916688994.4218825,
+      "days": 31,
+      "trips": 3844
+    },
+    {
+      "file": "02-kp-transporte-2026-08.xlsx",
+      "passengers": 244064,
+      "revenue": 976256000,
+      "fuel": 69914197.80049145,
+      "partial": 906341802.1995085,
+      "days": 31,
+      "trips": 3844
+    },
+    {
+      "file": "03-kp-transporte-2026-09.xlsx",
+      "passengers": 143859,
+      "revenue": 575436000,
+      "fuel": 40164009.209268995,
+      "partial": 535271990.790731,
+      "days": 18,
+      "trips": 2214
+    }
+  ],
+  "latest_states": {
+    "En tránsito": 2,
+    "Reserva": 2,
+    "En parada": 4,
+    "En terminal": 4
+  },
+  "onboard": 117,
+  "pending": 144,
+  "oil_alerts": 0,
+  "incidents": 23,
+  "open_incidents": 0,
+  "checks": "Passenger boardings, trip revenue, monthly summaries, fuel consumption and oil rules reconciled to source"
+}

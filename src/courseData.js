@@ -217,7 +217,37 @@ export const classes = [
     number: '07',
     module: 'Construir',
     title: 'Flujos de trabajo con IA',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 7',
+        type: 'pdf',
+        href: '/recursos/clase-7/clase-7-presentacion.pdf',
+        size: '875 KB',
+      },
+      {
+        name: 'Notas de la clase 7',
+        type: 'pdf',
+        href: '/recursos/clase-7/clase-7-notas.pdf',
+        size: '151 KB',
+      },
+      {
+        name: 'Actividad 7',
+        type: 'pdf',
+        href: '/recursos/actividades/actividad-7.pdf',
+        size: '64 KB',
+      },
+      {
+        name: 'Prompts de la clase 7',
+        type: 'file',
+        href: '/recursos/clase-7/prompts-clase-7.docx',
+        size: '23 KB',
+      },
+      {
+        name: 'Ejemplos de la clase 7',
+        type: 'link',
+        href: 'https://github.com/evinracher/curso-sinergia/tree/main/public/recursos/clase-7/ejemplos',
+      },
+    ],
   },
   {
     number: '08',

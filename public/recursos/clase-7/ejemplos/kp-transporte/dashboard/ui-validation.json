@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "Navigation across four sections",
+    "Financial amounts reconciled in UI",
+    "Date route bus and state filters",
+    "Empty states and zero revenue reserve day",
+    "12 stops and 12 bus markers",
+    "Bus and stop details",
+    "Historical time selector",
+    "Oil and incident counts",
+    "390px mobile layout without page overflow",
+    "No browser errors"
+  ],
+  "webmcp": "Native browser context unavailable; not tested"
+}
