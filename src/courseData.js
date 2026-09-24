@@ -222,7 +222,7 @@ export const classes = [
         name: 'Presentación de la clase 7',
         type: 'pdf',
         href: '/recursos/clase-7/clase-7-presentacion.pdf',
-        size: '875 KB',
+        size: '560 KB',
       },
       {
         name: 'Notas de la clase 7',
