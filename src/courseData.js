@@ -238,9 +238,9 @@ export const classes = [
       },
       {
         name: 'Prompts de la clase 7',
-        type: 'file',
-        href: '/recursos/clase-7/prompts-clase-7.docx',
-        size: '23 KB',
+        type: 'pdf',
+        href: '/recursos/clase-7/prompts-clase-7.pdf',
+        size: '170 KB',
       },
       {
         name: 'Ejemplos de la clase 7',
