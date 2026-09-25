@@ -253,7 +253,20 @@ export const classes = [
     number: '08',
     module: 'Apropiar',
     title: 'Proyecto final y transferencia',
-    resources: [],
+    resources: [
+      {
+        name: 'Presentación de la clase 8',
+        type: 'pdf',
+        href: '/recursos/clase-8/clase-8-presentacion.pdf',
+        size: '777 KB',
+      },
+      {
+        name: 'Actividad 8',
+        type: 'pdf',
+        href: '/recursos/actividades/actividad-8.pdf',
+        size: '58 KB',
+      },
+    ],
   },
 ]
 
