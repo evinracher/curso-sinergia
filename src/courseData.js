@@ -266,6 +266,12 @@ export const classes = [
         href: '/recursos/actividades/actividad-8.pdf',
         size: '58 KB',
       },
+      {
+        name: 'Prompt de finanzas personales',
+        type: 'pdf',
+        href: '/recursos/clase-8/prompt-finanzas.pdf',
+        size: '74 KB',
+      },
     ],
   },
 ]
